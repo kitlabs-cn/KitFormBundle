@@ -1,0 +1,11 @@
+{% block fulltext_widget %}
+    {% for attrname, attrvalue in attr %}
+        {% if attrname == 'id' %}
+            <script type="text/plain" id="{{ attrvalue }}" style="width:{{ attr.width }};height:{{ attr.height }};">
+        {% endif %}
+    {% endfor %}
+    {% if attr.placeholder is defined %}
+            <p>{{ attr.placeholder }}</p>
+    {% endif%}
+    </script>
+{% endblock fulltext_widget %}
