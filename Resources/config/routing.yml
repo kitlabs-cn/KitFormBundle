@@ -1,0 +1,3 @@
+kit_form_homepage:
+    path:     /
+    defaults: { _controller: KitFormBundle:Default:index }
