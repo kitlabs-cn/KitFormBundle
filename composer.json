@@ -1,0 +1,30 @@
+{
+	"name": "kitlabs/kit-form-bundle",
+	"type": "symfony-bundle",
+	"description": "Easily use UEditor, UMEditor, laydate in Symfony",
+	"keywords": ["form bundle","UEditor", "UMEditor", "laydate"],
+	"homepage": "https://github.com/kitlabs-cn/KitFormBundle",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "lcp0578",
+			"email": "lcp0578@gmail.com",
+			"homepage": "https://github.com/lcp0578"
+		},
+		{
+			"name": "The contributors",
+			"homepage": "https://github.com/kitlabs-cn/KitFormBundle/contributors"
+		}
+	],
+	"support": {
+		"email": "lcp0578@gmail.com"
+	},
+	"require": {
+		"php": ">=5.5.9"
+	},
+	"autoload": {
+		 "psr-4": {
+            "Kit\\Bundle\\KitFormBundle\\": ""
+        }
+	}
+}
