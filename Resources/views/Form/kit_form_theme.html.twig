@@ -14,7 +14,10 @@
     {{ form_widget(form) }}
     <script>
     laydate.render({
-      elem: {{ '#' ~ form.id }} //指定元素
+      elem: "{{ '#' ~ form.vars.id }}", //指定元素
+      value: "{{ form.vars.value}}",
+      type: "{{ form.vars.type }}",
+      range: {{ form.vars.range }}
     });
     </script>
 {%- endblock -%}
