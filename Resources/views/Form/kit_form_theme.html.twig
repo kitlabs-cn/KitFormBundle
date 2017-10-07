@@ -9,3 +9,12 @@
     {% endif%}
     </script>
 {% endblock fulltext_widget %}
+
+{%- block lay_date_widget -%}
+    {{ form_widget(form) }}
+    <script>
+    laydate.render({
+      elem: {{ '#' ~ form.id }} //指定元素
+    });
+    </script>
+{%- endblock -%}

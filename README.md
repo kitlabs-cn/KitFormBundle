@@ -34,7 +34,7 @@ in the `app/AppKernel.php` file of your project:
 	        $bundles = array(
 	            // ...
 	 
-	            new Kit\Bundle\FormBundle\KitFormBundle(),
+	            new Kit\KitFormBundle\KitFormBundle(),
 	        );
 	 
 	        // ...
