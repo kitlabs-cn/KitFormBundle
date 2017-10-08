@@ -75,4 +75,6 @@ in the `app/AppKernel.php` file of your project:
 	| date	| 日期选择器	| 可选择：年、月、日。type默认值，一般可不填 |
 	| time	| 时间选择器	| 只提供时、分、秒选择 |
 	| datetime	| 日期时间选择器	| 可选择：年、月、日、时、分、秒 |
+
+
 	PS: 详细配置请阅读[layDate官方文档](http://www.layui.com/laydate/)
