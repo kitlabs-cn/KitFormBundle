@@ -10,7 +10,7 @@ Open a command console, enter your project directory and execute the
 following command to download the latest stable version of this bundle:
  
 	
-	$ composer require kitlabs/kit-form-bundle "~0.1"
+	$ composer require kitlabs/kit-form-bundle
 
  
 This command requires you to have Composer installed globally, as explained
@@ -34,7 +34,7 @@ in the `app/AppKernel.php` file of your project:
 	        $bundles = array(
 	            // ...
 	 
-	            new Kit\KitFormBundle\KitFormBundle(),
+	            new Kit\FormBundle\KitFormBundle(),
 	        );
 	 
 	        // ...
