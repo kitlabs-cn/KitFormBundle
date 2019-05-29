@@ -15,7 +15,7 @@ class DateTransformer implements DataTransformerInterface
     public function transform($dateTime)
     {
         if($dateTime instanceof \DateTime){
-            return $dateTime->format('Y-m-d H:i:s');
+            return $dateTime->format('Y-m-d');
         }
         
         return $dateTime;

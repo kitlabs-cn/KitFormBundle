@@ -8,4 +8,4 @@ services:
     Kit\FormBundle\Form\DataTransformer\DateTransformer: "@kit_form.form.data_transformer_date"
     kit_form.form.datatime_transformer_date:
         class: Kit\FormBundle\Form\DataTransformer\DateTimeTransformer
-    Kit\FormBundle\Form\DataTransformer\DateTransformer: "@kit_form.form.datatime_transformer_date"
+    Kit\FormBundle\Form\DataTransformer\DateTimeTransformer: "@kit_form.form.datatime_transformer_date"
