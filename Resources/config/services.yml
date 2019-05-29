@@ -1,7 +1,13 @@
 services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
 #    kit_form.example:
 #        class: Kit\FormBundle\Example
 #        arguments: ["@service_id", "plain_value", "%parameter%"]
     kit_form.form.data_transformer_date:
         class: Kit\FormBundle\Form\DataTransformer\DateTransformer
+    Kit\FormBundle\Form\DataTransformer: ~
     Kit\FormBundle\Form\DataTransformer\DateTransformer: "@kit_form.form.data_transformer_date"
+    Kit\FormBundle\Form\DataTransformer\DateTransformer:
+        autowire: true
